@@ -1,0 +1,185 @@
+print(pow(2,2))
+
+numero = int(input("Digite um numero inteiro "))
+
+print(pow(numero,3))
+
+#exercicio 1
+
+
+numero = 1.45
+numero2 = 1.51
+print(round(numero))
+
+
+print(round(numero2))
+
+#exercicio 2
+
+
+numero = 1.51
+
+
+import math
+print(math.floor(numero))
+
+print(math.ceil(numero))
+from math import floor
+print(floor(numer
+
+exercicios 3
+
+#para Minusculo
+nome = "INFINITY"
+
+print(nome.lower())
+
+#para Maiusculo
+nome = input("qual o seu nome: ?")
+
+print(nome.upper())
+
+nome = input("qual o seu nome: ?")
+
+print(nome.title())
+
+exercicio 4
+
+valor = int(input("Digite um valor negativo? :"))
+
+print(abs(valor))
+
+exercicio 5
+
+valor1 = float(input("Peça um numero com 5 casa decimais"))
+#definindo o numero de casas decimais 
+print(f"A casa decimais que seram mostradas são : {valor1:.2f}")
+
+exercicios 6
+
+
+Imprimir em tela:
+1)False
+2)True
+3)False, porém, utilizando AND 
+4)True, porém, utilizando OR
+
+http://dontpad.com/infinity-619-aula02"""
+
+"""print(1>2) #1)False
+print(2==2)#2)True
+print(('b' == 'b') and (3<2))
+print((3<2) or (4>1))"""
+
+numero = int(input("Digite um numero? "))
+
+if numero > 0:
+    print("Este numero é Pisitivo!")
+
+else:
+    print("Este numero é negativo!")
+
+--------
+
+numero = int(input("Digite um numero? "))
+
+if numero > 0:
+    print("Este numero é Pisitivo!")
+
+elif numero == 0:
+    print("Este numero é igual a 0!")
+elif numero != 0:
+    print("Este numero é diferente de 0!")
+else:
+    print("Este numero é negativo!")
+   
+=========
+
+velocidade = int(input("Qual a velocidade do veiculo? "))
+
+if velocidade <= 60:
+    print("Você está na velocidade permitida!")
+elif velocidade > 60 and velocidade < 80:
+    print("Você está em alta velocidade!")
+elif velocidade > 80 and velocidade < 120:
+    print("Você está em alta velocidade!")
+else:
+    print("VUADO")
+
+==============
+
+altura = float(input("QUAL SUA ALTURA? "))
+peso = float(input("QUAL SEU PESO? "))
+
+imc = (peso / (altura**2))
+
+if imc < 18.5:
+    print("ABAIXO DO PESO !")
+elif imc > 18.5 and imc <= 24.9:
+    print("NORMAL !")
+elif imc  > 24.9 and imc <= 29.9:
+    print("SOBRESPESO !")
+elif imc > 29.9 and imc < 39.9:
+    print("OBSEDIDADE TIPO I")
+else:
+    print("ALERTA: Obesidade mórbida !")
+    
+    
+    Peça o usuário e a senha:
+O acesso só é permitido se o usuário for INFINITY e a senha school.
+Caso não ocorra o cruzamento das informações acima, mostre em tela ACESSO NEGADO.
+
+usuario = input("Informe o usuario: ")
+senha = input('Insira a senha: ')
+
+if usuario.upper().strip() == "INFINITY" and senha == 'school':
+    print("LOGIN REALIZADO")
+else:
+    print("ACESSO NEGADO")
+    
+=================
+
+numerosecreto = 93
+
+palpite = int(input("Qual o seu palpite? "))
+
+if palpite == numerosecreto:
+    print("Parabéns você venceu!!!")
+
+elif palpite > numerosecreto:
+    print("MAIOR !!")
+
+elif palpite < numerosecreto:
+    print("MENOR !!")
+
+
+"""Crie um código que indique se a temperatura digitada pelo usuário caracteriza:
+1)Temperatura normal - até 37°C
+2)Febril - até 37.8°C
+3)Febre Leve - até 38.5°C 
+4)Febre Moderada - 38.5°C a 39.4°C 
+5)Febre Grave - 39.5°C
+temperatura = float(input("Digite a temperatura do paciente: "))
+if temperatura <= 37:
+    print("Temperatura normal")
+elif temperatura <= 37.8:
+    print("Febril.")
+elif temperatura <= 38.5:
+    print("Febre Leve")
+elif temperatura <= 39.4:
+    print("Febre Moderada")
+else:
+    print("ATENÇÃO: Febre Grave!")"""
+    
+    
+nome = input("Qual o nome do ALUNO? ")
+media = float(input("Qual a foi a sua nota? "))
+
+if media > 7.0:
+    print("A")
+elif media >= 5.0 and media < 7.0:
+    print("B")
+elif media > 4.0:
+    print("Precisará passar pela avaliação final !!")
+else:
+    print("Reprovado")
